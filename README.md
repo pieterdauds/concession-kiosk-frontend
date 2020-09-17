@@ -1,7 +1,7 @@
 # concession-kiosk-frontend
 Frontend component for the concession kiosk demo app
 ```
-oc new-app https://github.com/jankleinert/concession-kiosk-frontend --name frontend -e COMPONENT_BACKEND_HOST=backend -e COMPONENT_BACKEND_PORT=8080
+oc new-app https://github.com/pieterdauds/concession-kiosk-frontend.git --name frontend -e COMPONENT_BACKEND_HOST=backend -e COMPONENT_BACKEND_PORT=8080
 oc expose svc/frontend
 oc get routes
 ```
